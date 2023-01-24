@@ -197,15 +197,13 @@ body {
   display: inline-block;
   content: '';
   position: absolute;
-  top: 100%;
+  bottom: 0;
   left: 0;
-  transform: translate(0,-100%);
   
-  padding-bottom: auto;
+  
   width: 48px;
   height: 4px;
 
-  transition: ;
   background: var(--ocean-pressed-state-color);
   border-radius: 2px;
 }
@@ -219,9 +217,8 @@ body {
   display: inline-block;
   content: '';
   position: absolute;
-  top: 100%;
+  bottom: 0;
   left: 0;
-  transform: translate(0,-100%);
   
   width: 66px;
   height: 4px;
